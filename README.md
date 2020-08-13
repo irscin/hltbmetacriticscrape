@@ -21,7 +21,9 @@ The function getScores expects 2 arguments: platform and game. Eveything lowerca
 DEPENDENCIES, CREDITS AND DISCLAIMER
 
 Axios: https://github.com/axios/axios
+
 Cheerio: https://github.com/cheeriojs/cheerio#readme
+
 howlongtobeat: https://github.com/ckatzorke/howlongtobeat
 
 This is a personal learning project. I do not recommend using this code in production environments nor do I offer any guarantee. 
