@@ -4,6 +4,7 @@ const hltb = require('howlongtobeat');
 const hltbService = new hltb.HowLongToBeatService();
 const game = {
     name: '',
+    platform: '',
     time: '',
     timeExtras: '',
     timeFull: '',
@@ -17,6 +18,7 @@ class GetGameTimeScore {
             game.time=result[0].gameplayMain
             game.timeExtras=result[0].gameplayMainExtra
             game.timeFull=result[0].gameplayCompletionist
+            game.platform=platform
         }).catch(err=>console.error(err));
         try{
             const nameCleaned = gameName.replace(/\s/g, '-')
